@@ -1,0 +1,34 @@
+<div class="event-wrapper">
+    <div class="background-container">
+        <div class="background-hover"></div>
+    </div>
+    <div class="single-event">
+        <div class="calendar">
+            <div class="day">{{#getDay date}}{{/getDay}}</div>
+            <div class="date">{{#getFormattedMonthYearDate date}}{{/getFormattedMonthYearDate}}</div>
+        </div>
+        <div class="event-info">
+            <div class="event-img">
+                <img src="{{thumbnail}}" alt="Pesho"/>
+            </div>
+            <div class="event-heading">
+                <h1 class="title">{{title}}</h1>
+                <p class="description">{{description}}</p>
+            </div>
+        </div>
+        <div class="location">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <h3 class="address-field">{{location}}</h3>
+            <p class="address-field">{{address}}</p>
+        </div>
+        <div class="tickets">
+            <div class="price">
+                <p class="label">Tickets</p>
+                <p class="value">{{ticketPrice}}</p>
+            </div>
+            <div class="btn-container">
+                <a class="button-medium" href=""><span class="button-text">Book now</span></a>
+            </div>
+        </div>
+    </div>
+</div>

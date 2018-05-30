@@ -1,0 +1,49 @@
+{
+    "title": "Reflexion | Awards",
+    "data": {
+        "featuredAwardsSection": {
+            "title": "Our <span class=\"text-red\">achievments</span>",
+            "trophy": [{
+                    "certificateUrl": "./img/awards-imgs/06-Award.jpg",
+                    "trophyUrl": "./img/awards-imgs/nessebar-second-place.png"
+                },
+                {
+                    "certificateUrl": "./img/awards-imgs/06-Award.jpg",
+                    "trophyUrl": "./img/awards-imgs/nessebar-third-place.png"
+                }
+            ]
+        },
+        "quoteSection": {
+            "quote": "Dream it.<span class=\"text-red\">Believe it.</span><span class=\"text-blue\">Achieve it.</span>"
+        },
+        "certificatesSection": [{
+                "certificateImage": "./img/awards-imgs/01-Award.jpg",
+                "year": "2012"
+            },
+            {
+                "certificateImage": "./img/awards-imgs/02-Award.jpg",
+                "year": "2013"
+            },
+            {
+                "certificateImage": "./img/awards-imgs/03-Award.jpg",
+                "year": "2014"
+            },
+            {
+                "certificateImage": "./img/awards-imgs/04-Award.jpg",
+                "year": "2014"
+            },
+            {
+                "certificateImage": "./img/awards-imgs/05-Award.jpg",
+                "year": "2016"
+            },
+            {
+                "certificateImage": "./img/awards-imgs/06-Award.jpg",
+                "year": "2016"
+            },
+            {
+                "certificateImage": "./img/awards-imgs/07-Award.jpg",
+                "year": "2016"
+            }
+        ]
+    }
+}

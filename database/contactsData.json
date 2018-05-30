@@ -1,0 +1,32 @@
+{
+    "title": "Reflexion | Contact Us",
+    "data": {
+        "title": "Get In Touch",
+        "firstNameLabel": "First name",
+        "firstNamePlaceholder": "Your name...",
+        "lastNameLabel": "Last name",
+        "lastNamePlaceholder": "Your last name...",
+        "countryLabel": "Country",
+        "countries": [{
+                "text": "Bulgaria",
+                "value": "bulgaria"
+            },
+            {
+                "text": "USA",
+                "value": "usa"
+            },
+            {
+                "text": "United Kingdom",
+                "value": "uk"
+            }, {
+                "text": "Ukraine",
+                "value": "ukraine"
+            }
+        ],
+        "messageLabel": "Message",
+        "messagePlaceholder": "Write something...",
+        "buttonText": "Send"
+    }
+
+
+}

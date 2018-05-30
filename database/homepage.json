@@ -1,0 +1,38 @@
+{
+    "title": "Reflexion | Home",
+    "data": {
+        "eventsSection": {
+            "title": "Upcoming events",
+            "events": [{
+                    "title": "Acoustic concert",
+                    "date": "11/20/2017",
+                    "thumbnail": "./img/Concert-pesho.jpg",
+                    "description": "It comes a time to invite you to our acoustic concert, which points the beginning of the new season.",
+                    "location": "Dreams Piano Bar",
+                    "address": "Petrich",
+                    "ticketPrice": "10$"
+                },
+                {
+                    "title": "Acoustic concert",
+                    "date": "10/27/2017",
+                    "thumbnail": "./img/Concert-ally.jpg",
+                    "description": "Hi, guys! If you want to listen the newest charts, join us that evening!",
+                    "location": "City Live Club",
+                    "address": "Petrich",
+                    "ticketPrice": "12$"
+                }
+            ]
+        },
+        "videoLinkSection": {
+            "title": "Check our videos",
+            "description": "Your heart is just a beatbox for the song of your life!",
+            "background": "./img/videos-background.jpg"
+        },
+        "contactLinkSection": {
+            "title": "Have a question about our band and music concerts?",
+            "description": "Let us take care of it! We are willing to give some advice and support whatever you need.",
+            "image": "./img/microfone.png",
+            "buttonText": "Contact Us"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<section id="video-section-container">
+    <div class="heading">
+        <h1 class="title">{{{data.title}}}</h1>
+        <p class="description">{{data.description}}</p>
+    </div>
+    <div id="video-collection" class="video-places container">
+    {{#each data.videosId}}
+        {{> videos/single-video}}
+    {{/each}}
+    </div>
+    <div class="button-container">
+        <button id="load-more-button" class="button-medium"><span class="button-text">Load more</span></button>
+    </div>
+</section>
+<div id="popup-box">
+    <div id="popup-overlay" class="close-trigger"></div>
+    <div class="popup-content center">
+        <div class="close-button close-trigger"><i class="fa fa-times" aria-hidden="true"></i></div>
+        <iframe id="video" allowfullscreen></iframe>
+    </div>
+</div>

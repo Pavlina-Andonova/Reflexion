@@ -1,0 +1,44 @@
+{
+    "title": "Reflexion | Band",
+    "data": {
+        "introSection": {
+            "title": "<span>One band</span><span>one sound</span>",
+            "image": "./img/band/band.png"
+        },
+        "quoteSection": {
+            "quote": "Where <span class=\"text-red\">words</span> fail, <span class=\"text-blue\">music</span>speaks..</h2>",
+            "author": "/Hans Christian Andersen/"
+        },
+        "membersSection": [{
+                "id": "petar",
+                "image": "./img/band/pesho-big.png",
+                "instrument": "bass guitar",
+                "name": "Petar Keremedchiev",
+                "description": "Born in October , 1995 in Petrich. He starts playing bass guitar in 2009 when he is just 13 years old. He is taking guitar lessons at “Miladinovi Brothers ” academy with Svetoslav Loboshki as a teacher. Petar is one of the creators of the Reflexion pop-rock band. Favorite bands: Bring me the horizon, Tool, Breaking Benjamin, Amaranthe…",
+                "facebookLink": "https://www.facebook.com/profile.php?id=100012827052640",
+                "instagramLink": "https://www.instagram.com/petar_keremidchiev/",
+                "emailLink": "petar_keremidchiev@abv.bg"
+            },
+            {
+                "id": "sara",
+                "image": "./img/band/sara-big.png",
+                "instrument": "vocal",
+                "name": "Sara Mitova",
+                "description": "Born in November, 1992 she gets in love with the music and singin at the early age of seven. Her road in music education began at the vocal studio \"Sgushena Zvezditza\" with a teacher - Tanya Tocheva. Later she participate in a number of concerts and competitions. Sara joins Metal Heart (the old name of Reflexion) in the late 2012.",
+                "facebookLink": "https://www.facebook.com/ally.narciss?fref=ts",
+                "instagramLink": "https://www.instagram.com/petar_keremidchiev/",
+                "emailLink": "petar_keremidchiev@abv.bg"
+            },
+            {
+                "id": "emo",
+                "image": "./img/band/emo-big.png",
+                "instrument": "guitar",
+                "name": "Emil Georgiev",
+                "description": "Born in May in the late spring of the 1995. At the age of 13 the guitar has became a part of him. He starts his music education in the \"Bratya Miladinovi\" Academy with a teacher Svetoslav Loboshki. Together he, Petar and Zhivko band up and create Metal Hearth. He starts as a rhythm guitarist, but later he is the main solo guitar of Reflexion.",
+                "facebookLink": "https://www.facebook.com/emo.blq?fref=ts",
+                "instagramLink": "https://www.instagram.com/egeorgievvvvv/",
+                "emailLink": "petar_keremidchiev@abv.bg"
+            }
+        ]
+    }
+}

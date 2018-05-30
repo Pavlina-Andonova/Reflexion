@@ -1,0 +1,21 @@
+#bandImages .title {
+    text-align: center;
+    padding: 40px 30px 0 0;
+}
+
+#bandImages .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#bandImages .single-image {
+    width: 33%;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+#bandImages .single-image img {
+    width: 100%;
+}

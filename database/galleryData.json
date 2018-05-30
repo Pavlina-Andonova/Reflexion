@@ -1,0 +1,43 @@
+{
+    "title": "Reflexion | Awards",
+    "data": {
+        "title": "Our Gallery",
+        "photos": [{
+                "imageUrl": "./img/gallery/ally.jpg",
+                "title": "Acoustic concert"
+            },
+            {
+                "imageUrl": "./img/gallery/pesho.jpg",
+                "title": "Acoustic concert"
+            },
+            {
+                "imageUrl": "./img/gallery/emo.jpg",
+                "title": "Acoustic concert"
+            },
+            {
+                "imageUrl": "./img/gallery/s&p.jpg",
+                "title": "Concert"
+            },
+            {
+                "imageUrl": "./img/gallery/all.jpg",
+                "title": "Concert"
+            },
+            {
+                "imageUrl": "./img/gallery/emo2.jpg",
+                "title": "Concert"
+            },
+            {
+                "imageUrl": "./img/gallery/all1.jpg",
+                "title": "Concert"
+            },
+            {
+                "imageUrl": "./img/gallery/all2.jpg",
+                "title": "Concert"
+            },
+            {
+                "imageUrl": "./img/gallery/all3.jpg",
+                "title": "Concert"
+            }
+        ]
+    }
+}

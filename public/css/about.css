@@ -1,0 +1,102 @@
+/* Heading section*/
+
+#about-us-heading .container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#about-us-heading .quote {
+    display: inline-block;
+    width: 700px;
+    padding: 10px 0 0;
+}
+
+#about-us-heading .author {
+    padding: 10px 0 10px 565px;
+}
+
+#about-us-heading .title {
+    padding-right: 45px;
+}
+
+
+/* History section */
+
+#history {
+    padding-top: 30px;
+}
+
+#history .container {
+    display: flex;
+}
+
+#history .image-wrapper {
+    padding-right: 100px;
+}
+
+#history .image-wrapper,
+#history .content-wrapper {
+    width: 50%;
+}
+
+#history .image:before,
+#history .image:after {
+    content: '';
+    position: absolute;
+    z-index: 5;
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 75px auto;
+}
+
+#history .image {
+    position: relative;
+    z-index: 5;
+    width: 250px;
+    height: 250px;
+    margin: 75px auto;
+}
+
+#history .image:before {
+    top: -125px;
+    left: -50px;
+    background: #4d1815;
+}
+
+#history .image:after {
+    top: -100px;
+    left: -25px;
+    border: 1px solid #fff;
+}
+
+#history .image>div {
+    position: absolute;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff
+}
+
+#history .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#history .content {
+    padding-top: 20px;
+}
+
+#history .heading {
+    font-size: 30px;
+}
+
+#history .information {
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#history a {
+    font-size: 18px;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Add Favicon-->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <!-- Reset Styles -->
+    <link rel="stylesheet" href="/css/reset.css">
+
+    <!-- Plugins Styles -->
+    <link rel="stylesheet" href="/vendor/lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/band.css">
+    <link rel="stylesheet" href="/css/awards.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/contacts.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <!-- Plugin Scripts -->
+    <script type="text/javascript" src="/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="/vendor/bootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/vendor/lightbox/js/lightbox.min.js"></script>
+
+    <title>{{title}}</title>
+</head>
+<body>
+<header class="main-header">
+    <nav class="top-navigation">
+        <ul>
+            <li><a class="navigation-link" href="/">Home</a></li>
+            <li><a class="navigation-link" href="/about-us">About Us</a></li>
+            <li><a class="navigation-link" href="/band">Band</a></li>
+            <li class="logo-container">
+                <a class="navigation-link" href="/">
+                    <img class="main-logo" src="./img/reflexion-logo.png" alt="Reflexion">
+                </a>
+            </li>
+            <li><a class="navigation-link" href="/awards">Awards</a></li>
+            <li>
+                <button id="media-button" class="navigation-link">
+                    Media
+                    <i class="fa fa-angle-double-down down-arrow" aria-hidden="true"></i>
+                </button>
+                <ul id="media-links" class="sub-navigation">
+                    <li><a class="navigation-link" href="/videos">Videos</a></li>
+                    <li><a class="navigation-link" href="/gallery">Gallery</a></li>
+                </ul>
+            </li>
+            <li><a class="navigation-link" href="/contacts">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="header-fix"></div>
+{{{body}}}
+<script type="text/javascript" src="/js/lightbox-awords.config.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+<script type="text/javascript" src="/js/popups-video.js"></script>
+<script type="text/javascript" src="/js/loadMore.js"></script>
+</body>
+</html>

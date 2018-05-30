@@ -1,0 +1,16 @@
+{
+    "title": "Reflexion | About Us",
+    "data": {
+        "headingSection": {
+            "title": "About the crew",
+            "quote": "When you get together in a group, it becomes like a family, with the different personalities and the politics that comes with being in a band. It's different than bringing something in by yourself.",
+            "author": "/Albert Hammond/"
+        },
+        "historySection": {
+            "title": "We are Reflexion",
+            "description": "The band was formed in may 2009 in Petrich. Back then the crew had a different name-Metal Heart. The genre was hard-rock and the members –slightly different- Emil G.(guitar), Petar K.(bass guitar), Stoyan D.(solo guitar) and Tomislava T.(vocal).<br/> From then till now the band went through many changes both in genre and cast members. In 2011 a new drummer joined the band- Ivan K., and a year later- a new vocal- Seraphima M. Also Stoyan D. and Tomislava T. left the band.<br/>Those changes came as a new beginning for the team. They began writing their own music and explore new horizons for the band.",
+            "image": "./img/cover-art.jpg",
+            "buttonText": "Meet Our Team"
+        }
+    }
+}

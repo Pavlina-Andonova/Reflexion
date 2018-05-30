@@ -1,0 +1,36 @@
+<section id="contact-form">
+    <div class="container">
+        <div class="heading">
+            <h1 class="title">{{data.title}}</h1>
+        </div>
+        <form class="contact-form">
+            <div class="form-fields">
+                <div class="left-fields fields-wrapper">
+                    <div class="input-field">
+                        <label for="fname">{{data.firstNameLabel}}</label>
+                        <input type="text" id="fname" name="firstname" placeholder="{{data.firstNamePlaceholder}}">
+                    </div>
+                    <div class="input-field">
+                        <label for="lname">{{data.lastNameLabel}}</label>
+                        <input type="text" id="lname" name="lastname" placeholder="{{data.lastNamePlaceholder}}">
+                    </div>
+                    <div class="input-field">
+                        <label for="country">{{data.countryLabel}}</label>
+                        <select id="country" name="country">
+                        {{#each data.countries}}
+                            <option class="single-country" value="{{value}}">{{text}}</option>
+                        {{/each}}
+                        </select>
+                    </div>
+                </div>
+                <div class="right-fields fields-wrapper">
+                    <label for="message">{{data.messageLabel}}</label>
+                    <textarea id="message" name="message" placeholder="{{data.messagePlaceholder}}"></textarea>
+                </div>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="{{data.buttonText}}">
+            </div>
+        </form>
+    </div>
+</section>

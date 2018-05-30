@@ -1,0 +1,113 @@
+/* Band Section */
+
+.band-wrapper {
+    position: relative;
+    height: 550px;
+}
+
+.background-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.band-wrapper .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("http://music-club.bold-themes.com/main-demo/wp-content/uploads/sites/3/2017/05/band_inner_background_03_.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.band-wrapper .background-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.band-wrapper .background-image img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    max-width: 1000px;
+    max-height: 500px;
+    transform: translateX(-50%);
+}
+
+.band-wrapper .band-content {
+    position: absolute;
+    width: 100%;
+}
+
+.band-wrapper .band-content .title {
+    width: 412px;
+    margin: 0 auto;
+    padding-top: 42px;
+    font-size: 50px;
+}
+
+.band-wrapper .band-content span {
+    display: block;
+}
+
+.band-wrapper .band-content span:first-child {
+    text-align: left;
+}
+
+.band-wrapper .band-content span:last-child {
+    text-align: right;
+}
+
+
+/* Band Members Section */
+
+#members .members-wrapper {
+    padding: 35px 0 0;
+    background: url(http://music-club.bold-themes.com/main-demo/wp-content/uploads/sites/3/2017/05/band_inner_background_03.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#members .member-image {
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+#members .member-image img {
+    position: relative;
+    top: 3px;
+    max-width: 100%;
+    max-height: 525px;
+}
+
+#members .member-information {
+    float: right;
+    width: 60%;
+    padding: 100px 10px 0 25px;
+}
+
+#members .member-information .instrument {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#members .member-information .title {
+    line-height: 60px;
+    padding-bottom: 15px;
+    color: #274a61;
+    font-size: 60px;
+}
+
+#members .member-information .description {
+    width: 100%;
+    font-size: 18px;
+}
+
+#members .member-information .social-media-container {
+    padding: 35px 0 0;
+}
+
+#members .member-information .social-media-container li {
+    margin-right: 15px;
+}

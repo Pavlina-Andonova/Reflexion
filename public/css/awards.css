@@ -1,0 +1,61 @@
+/* Featured-aword*/
+
+#fetured-awards .heading {
+    text-align: center;
+    font-size: 45px;
+    padding: 50px 35px 50px 0;
+}
+
+#fetured-awards .main-awards-wrapper {
+    display: flex;
+}
+
+.main-awards-wrapper .cup-award {
+    width: 50%;
+}
+
+.main-awards-wrapper .single-award {
+    position: relative;
+    width: 300px;
+}
+
+.main-awards-wrapper .certificate {
+    position: relative;
+    width: 100%;
+}
+
+.main-awards-wrapper .cup {
+    position: absolute;
+}
+
+.main-awards-wrapper .cup-award .single-award {
+    margin: 30px auto 100px 50px;
+}
+
+.main-awards-wrapper .cup-award .certificate {
+    transform: rotate(-10deg);
+}
+
+.main-awards-wrapper .cup-award .cup {
+    bottom: -75px;
+    right: -150px;
+    width: 250px;
+    transform: rotate(15deg);
+}
+
+.other-awards .single-award {
+    width: 33%;
+    padding: 10px 15px;
+}
+
+.other-awards img,
+#featured-awards img {
+    width: 100%;
+}
+
+.other-awards .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}

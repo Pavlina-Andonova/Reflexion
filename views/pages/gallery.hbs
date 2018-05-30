@@ -1,0 +1,8 @@
+<section id="bandImages" class="band-images">
+    <div class="title">{{data.title}}</div>
+    <div class="container">
+    {{#each data.photos}}
+        {{> gallery/single-photo this}}
+    {{/each}}
+    </div>
+</section>

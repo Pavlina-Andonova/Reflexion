@@ -1,0 +1,12 @@
+<section id="fetured-awards">
+    <div class="container">
+        <div class="heading text-center">
+            <h1 class="title">{{{title}}}</span></h1>
+        </div>
+        <div class="main-awards-wrapper">
+        {{#each trophy}}
+            {{> awards/single-featured-award this}}
+        {{/each}}
+        </div>
+    </div>
+</section>

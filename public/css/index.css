@@ -1,0 +1,285 @@
+/* Intro section */
+
+.main-intro {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    background: url('../img/Reflexion-photo.jpg') no-repeat center;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.main-intro img {
+    width: 100%;
+    margin-top: -130px;
+    opacity: 0.5;
+}
+
+
+/* Events Section */
+
+#events {
+    padding: 35px 0 15px;
+    background-color: #ffffff;
+}
+
+#events .calendar,
+#events .event-info,
+#events .location,
+#events .tickets {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#events .calendar {
+    width: 10%;
+    margin: -25px 0 0 15px;
+}
+
+#events .location {
+    text-align: center;
+    width: 15%;
+}
+
+#events i {
+    font-size: 28px;
+}
+
+#events .label {
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+#events .tickets {
+    width: 25%;
+}
+
+#events .price,
+#events .btn-container {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#events .address-field {
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+#events h3.address-field {
+    font-size: 18px;
+}
+
+#events p.address-field {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+#events .price {
+    margin-right: 30px;
+}
+
+#events .value {
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+#events .heading {
+    padding-left: 10px;
+}
+
+#events .btn-container .button-medium {
+    padding: 15px 20px;
+}
+
+#events .event-info {
+    display: inline-flex;
+    width: 45%;
+    padding-left: 15px;
+}
+
+#events .event-wrapper,
+#events .single-event {
+    position: relative;
+}
+
+#events .background-container,
+#events .background-hover {
+    position: absolute;
+    height: 100%;
+}
+
+#events .background-container {
+    background-color: #fbfbfb;
+    width: 100%;
+}
+
+#events .background-hover {
+    background-color: #0f1c26;
+    width: 0;
+    transition: width 0.45s ease;
+}
+
+#events .event-wrapper:hover .background-hover {
+    width: 100%;
+}
+
+#events .event-wrapper {
+    margin-bottom: 20px;
+}
+
+#events .single-event {
+    padding: 30px 20px;
+}
+
+#events .day {
+    height: 100px;
+    color: #323a41;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+#events .date {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+#events .heading .title {
+    padding-bottom: 20px;
+    color: #323a41;
+}
+
+#events .event-heading {
+    padding-left: 10px;
+}
+
+#events .event-heading .title {
+    line-height: 20px;
+    padding-bottom: 7px;
+    color: #323a41;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#events .description {
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#events .single-event,
+#events .single-event {
+    color: #5e6c7c;
+}
+
+#events .event-img img {
+    width: 85px;
+}
+
+
+/* Videos-page Section */
+
+.video-page-wrapper {
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+}
+
+.video-page-wrapper .background-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.video-page-wrapper .background-container img {
+    left: 0;
+    min-width: 100%;
+}
+
+.video-page-wrapper .background-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -o-radial-gradient(at 10% 30%, #274a61 0%, #750e1f 100%);
+    background: radial-gradient(at 10% 30%, #274a61 0%, #750e1f 100%);
+    opacity: 0.5;
+}
+
+.video-page-wrapper .content {
+    position: relative;
+    left: 40%;
+    width: 60%;
+    padding: 15px;
+    transition: left 0.3s ease, width 0.3s ease;
+}
+
+.video-page-wrapper .content .circle-button {
+    margin-top: 40px;
+}
+
+.video-page-wrapper .title {
+    margin: 5px auto;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.video-page-wrapper .description {
+    font-size: 20px;
+}
+
+
+/*Contact Section*/
+
+#contact-section {
+    background-color: #ededed;
+}
+
+#contact-section .container {
+    padding-top: 10px;
+}
+
+#contact-section .image-container {
+    position: relative;
+    top: -39px;
+    left: 20px;
+    float: left;
+}
+
+#contact-section .image-container img {
+    width: 55px;
+}
+
+#contact-section .content {
+    display: inline-block;
+    max-width: 65%;
+    margin-left: 55px;
+    padding: 15px 0;
+    color: #000;
+}
+
+#contact-section .button-container {
+    float: right;
+    margin-right: 85px;
+    padding-top: 60px;
+}
+
+#contact-section .button-container .button-medium {
+    padding: 15px 20px;
+}
+
+#contact-section .content .title {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+#contact-section .content .description {
+    font-size: 18px;
+}
