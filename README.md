@@ -2,8 +2,8 @@
 
 # Used Technologies
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JS
 - JQuery
 - Handlebars
