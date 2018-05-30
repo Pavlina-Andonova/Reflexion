@@ -1,5 +1,14 @@
 # Reflexion
 
+# Used Technologies
+
+- HTML
+- CSS
+- JS
+- JQuery
+- Handlebars
+- Express
+
 # Quick Install and Running the App
 
 The package.json file contains the list of modules and dependencies you need to in order to start the website service.
